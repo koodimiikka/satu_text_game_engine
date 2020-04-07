@@ -1,0 +1,21 @@
+{
+  "name": "satu-text-game-engine",
+  "version": "1.0.0",
+  "description": "Satu Text Game Engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack --progress --colors --watch --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "miikka-asukas.fi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webfontloader": "^1.6.28",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
